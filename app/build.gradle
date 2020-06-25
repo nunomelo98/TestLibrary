@@ -1,7 +1,7 @@
 //apply plugin: 'com.android.application'//YOU NEED TO TURN THIS ONE IN THE ONE ABOVE
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group 'com.nunomelo'
+apply plugin: 'com.github.dcendents.android-maven'// add this line to enable builing on jitpack.io
+group ='com.github.nunomelo98'//add this one too group='com.github.YourUsername'
 version = '1.0'
 
 
