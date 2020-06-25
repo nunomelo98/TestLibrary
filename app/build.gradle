@@ -1,6 +1,6 @@
 //apply plugin: 'com.android.application'//YOU NEED TO TURN THIS ONE IN THE ONE ABOVE
 apply plugin: 'com.android.library'
-//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.github.dcendents.android-maven'
 group 'com.nunomelo'
 version = '1.0'
 
