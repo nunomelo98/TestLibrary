@@ -27,5 +27,4 @@ allprojects {
 
 
 
-[![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)]
-(https://jitpack.io/#nunomelo98/TestLibrary)
+[![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)](https://jitpack.io/#nunomelo98/TestLibrary)
