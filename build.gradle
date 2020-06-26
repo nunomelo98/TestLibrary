@@ -12,7 +12,10 @@ buildscript {
         //to enable building  on jitpack you need to add the android-maven plugin.
         //if using gradle 4.6 or later
         //in
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4"
+        //this classpath is for the publish on bintray
+        //classpath 'com.novoda:bintray-release:0.9.2' PARA REMOVER
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
