@@ -6,8 +6,8 @@ apply plugin: 'com.android.library'
 group ='com.github.nunomelo98'//add this one too group='com.github.YourUsername'
 version = '1.0'
 //apply plugin: 'com.novoda.bintray-release'// THIS IS FOR BINTRAY RELEASE PARA REMOVER
-//apply plugin: 'kotlin-android'
-//apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 
 
@@ -28,7 +28,7 @@ ext{
     siteUrl = 'https://github.com/nunomelo98/TestLibrary'    // git repo url
     gitUrl = 'https://github.com/mitsinsar/TestLibrary.git' // git repo vcs url
 
-    libraryVersion = '1.0'      // library version
+    libraryVersion = '1.1'      // library version
 
     developerId = 'nunomelo98'                // This is your bintray username
     developerName = 'Nuno Melo'              // Developer's name
@@ -76,4 +76,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
 }
+
+//subprojects {
+//    tasks.withType(Javadoc).all { enabled = false }
+//}
 apply from: "publish.gradle"
+
