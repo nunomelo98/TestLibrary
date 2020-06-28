@@ -1,10 +1,9 @@
 
 
-apply from: './scripts/installv1.gradle'
-apply from: './scripts/bintrayv1.gradle'
+
 
 ext{
-  bintrayRepo = 'TestLibrary' // Repo name in bintray dashboard
+  bintrayRepo = 'TestLibrary' // Repository name in bintray dashboard
   bintrayName = 'com.nunomelo.testlibrary' // package name of the bintray repo
 
   publishedGroupId = 'com.nunomelo.testlibrary'
@@ -30,3 +29,6 @@ ext{
   allLicenses = ["Apache-2.0"]    // array of licenses, for example, ["Apache-2.0"]
 
 }
+
+apply from: './scripts/installv1.gradle'
+apply from: './scripts/bintrayv1.gradle'
