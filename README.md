@@ -28,4 +28,4 @@ Add it in your root build.gradle at the end of repositories:
 	        implementation 'com.github.nunomelo98:TestLibrary:1.0'
 	}
 	
-    [![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)](https://jitpack.io/#nunomelo98/TestLibrary)
+   [![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)](https://jitpack.io/#nunomelo98/TestLibrary)
