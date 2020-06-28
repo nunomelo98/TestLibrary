@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 //apply plugin: "com.jfrog.bintray"// plugin para poder colocar no jfrog
 //version "1.8.4"// plugin que permite publicar artefacctos no bintray
 group ='com.github.nunomelo98'//add this one too group='com.github.YourUsername'
-version = '1.0'
+version = '1.1'
 //apply plugin: 'com.novoda.bintray-release'// THIS IS FOR BINTRAY RELEASE PARA REMOVER
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
