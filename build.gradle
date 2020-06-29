@@ -33,7 +33,7 @@ task clean(type: Delete) {
     delete rootProject.buildDir
    // classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
 }
-//
-//subprojects {
-//    tasks.withType(Javadoc).all { enabled = false }
-//}
+
+subprojects {
+    tasks.withType(Javadoc).all { enabled = false }
+}
