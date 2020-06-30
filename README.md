@@ -13,11 +13,13 @@ Add it in your root build.gradle at the end of repositories:
 		maven { url 'https://jitpack.io' }
 		}
 	}
+	
+ [![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)](https://jitpack.io/#nunomelo98/TestLibrary)
   
  Step 2 add the dependencies:
  
     dependencies {
-	       implementation 'com.github.nunomelo98:TestLibrary:1.0'
+	       implementation 'com.github.nunomelo98:TestLibrary:1.2'
 	}
 	
 # Instalation witth jcenter	
@@ -25,7 +27,7 @@ Add it in your root build.gradle at the end of repositories:
   go to your buil.gradle module app in the dependencies:
 
     dependencies {
-	        implementation 'com.github.nunomelo98:TestLibrary:1.2'
+	        implementation 'com.nunomelo.testlibrary:testlibrary:1.2'
 	}
 	
-   [![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)](https://jitpack.io/#nunomelo98/TestLibrary)
+   
