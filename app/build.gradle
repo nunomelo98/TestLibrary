@@ -1,6 +1,6 @@
 //apply plugin: 'com.android.application'//YOU NEED TO TURN THIS ONE IN THE ONE ABOVE
 apply plugin: 'com.android.library'
-//apply plugin: 'com.github.dcendents.android-maven'// add this line to enable builing on jitpack.io //PLUGIN QUE PERMITE PUBLICAR AAR(ANDROID ARCHIVE) EM REPOSITORIOS MAVEN
+apply plugin: 'com.github.dcendents.android-maven'// add this line to enable builing on jitpack.io //PLUGIN QUE PERMITE PUBLICAR AAR(ANDROID ARCHIVE) EM REPOSITORIOS MAVEN
 //apply plugin: "com.jfrog.bintray"// plugin para poder colocar no jfrog
 //version "1.8.4"// plugin que permite publicar artefacctos no bintray
 group ='com.github.nunomelo98'//add this one too group='com.github.YourUsername'
