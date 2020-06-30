@@ -25,7 +25,7 @@ Add it in your root build.gradle at the end of repositories:
   go to your buil.gradle module app in the dependencies:
 
     dependencies {
-	        implementation 'com.github.nunomelo98:TestLibrary:1.1'
+	        implementation 'com.github.nunomelo98:TestLibrary:1.2'
 	}
 	
    [![](https://jitpack.io/v/nunomelo98/TestLibrary.svg)](https://jitpack.io/#nunomelo98/TestLibrary)
