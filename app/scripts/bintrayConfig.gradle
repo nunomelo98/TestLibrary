@@ -16,7 +16,7 @@ ext{
   siteUrl = 'https://github.com/nunomelo98/TestLibrary'    // git repo url
   gitUrl = 'https://github.com/nunomelo98/TestLibrary.git' // git repo vcs url
 
-  libraryVersion = '1.2'      // library version
+  libraryVersion = '1.2'       // library version
 
   developerId = 'nunomelo98'                // This is your bintray username
   developerName = 'Nuno Melo'              // Developer's name
